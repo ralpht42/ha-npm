@@ -34,3 +34,7 @@ backup_exclude:
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   reset_database: bool?
+
+image: ghcr.io/hassio-addons/nginxproxymanager/{arch}
+init: false
+version: 0.12.3
